@@ -1,7 +1,9 @@
 $(function () {
   var words = [
     'Intégratrice',
-    'Développeuse'
+    'Développeuse',
+    'Graphiste',
+    'photograveur'
   ],
     i = 0;
 
