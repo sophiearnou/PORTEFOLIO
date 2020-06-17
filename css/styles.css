@@ -75,7 +75,7 @@ header {
 
 @media (min-width: 576px) {
         .container {
-        min-width: 540px;
+        max-width: 540px;
     }
 }
 
@@ -241,7 +241,7 @@ section .about .social a  img {
     color: var(--secondary);
     text-align: center;
     margin-bottom: 1rem;
-    line-height: 0.5;
+    /* line-height: 0.5; */
    margin-top: 40px;
 }
 
@@ -749,7 +749,10 @@ footer .copyright {
     margin-bottom: 2rem;
     text-align: center;
 }
-
+/* div.card.zoom {
+width: 320px;
+height: auto;
+} */
 .image {
 width: 100%;
 height: auto;
@@ -782,7 +785,8 @@ transform:scale(1.30);
     }
     
     .hero .left img {
-        width: 320px;
+        width: 380px;
+        position: relative;
     }
     .hero .right h1 {
         font-size: 2.8rem;
@@ -793,11 +797,15 @@ transform:scale(1.30);
     }
     .hero .right p{
          margin-right: 1.5rem;
+        
+         
     }
 
     header {
+        position: relative;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 28% 90%, 0 100%);
     }
+    
 
     section.about .about-me-img {
         height: 360px;
@@ -837,22 +845,53 @@ transform:scale(1.30);
     .hero {
         flex-direction: column;
     }
-
+    .hero.flex.items-center{
+        padding-top: 6rem;
+    }
     header {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 69% 95%, 0 100%);
-        padding-bottom: 15rem;
+        padding-bottom: 1rem;
+        position: relative;
     }
-
-    .hero .right {
+    .hero .left img {
+        width: 220px;
         position: absolute;
+        left: 2rem;
+        top: 11rem;
+
+    }
+    .hero .items-center {
+        margin-top: 1rem;
+         text-align: center;
+    }
+    .hero .right .flex-1{
+        
         top: 260px;
-        padding: 0 1rem;
+        padding: 0 0.5rem;
         background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
     }
-    /* .hero .right p {
-    padding-bottom: ;
-    } */
-
+    div.right.flex-1 {
+        text-align: center;
+    }
+    .hero .right p {
+    display: none;
+    }
+    .hero .right h1 {
+    font-size: 2rem;
+   
+    }
+      .hero .right .span #word {
+    text-align: center;
+   
+    }
+.btn {
+    
+    margin-bottom:2rem ;
+    margin-top: 10rem;
+    align-items: center;
+    padding: 10px;
+    font-size: 0.8rem;
+}
     .hero .left {
         margin-top: -5rem;
         margin-right: -9rem;
@@ -862,10 +901,12 @@ transform:scale(1.30);
     .about-inner-wrap {
         flex-direction: column;
     }
-
+    section#about.about {
+    padding-top: 1.3rem;
+}
     .about .right {
         text-align: center;
-        margin-top: 2rem;
+        
     }
 
     .about .right .social {
@@ -881,12 +922,12 @@ transform:scale(1.30);
         margin-top: 6rem;
     }
 
-     .section-heading{
-        line-height: 1;
+    .flex-1.section-heading-1 h1{
+    line-height: none;
     }
 
     section.freelancer h1 {
-        line-height: 1.2;
+        
         padding: 0 1rem;
     }
 

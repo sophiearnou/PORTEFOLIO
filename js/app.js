@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     let hamberger = document.querySelector('.hamberger');
     let times = document.querySelector('.times');
     let mobileNav = document.querySelector('.mobile-nav');
