@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="14.828" height="14.829" viewBox="0 0 14.828 14.829">
-  <g id="Group_2271" data-name="Group 2271" transform="translate(-667.586 -2793.586)">
-    <path id="Path_1388" data-name="Path 1388" d="M482,1447l-12,12" transform="translate(199 1348)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    <path id="Path_1389" data-name="Path 1389" d="M470,1447l12,12" transform="translate(199 1348)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<path class="st0" d="M6.5,22.8l2.7,2.7l6.8-6.8l6.8,6.8l2.7-2.7L18.7,16l6.8-6.8l-2.7-2.7L16,13.3L9.2,6.5L6.5,9.2l6.8,6.8
+		C13.3,16,6.5,22.8,6.5,22.8z"/>
+</g>
 </svg>
