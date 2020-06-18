@@ -14,6 +14,7 @@ a:hover {
   45deg,
   rgba(118, 6, 229, 1) 0%,
   rgba(173, 12, 214, 1) 22%,
+
   rgba(209, 0, 198, 1) 42%,
   rgba(182, 13, 216, 1) 66%,
   rgba(114, 0, 237, 1) 100%
@@ -64,6 +65,7 @@ header h1 a span {
 header {
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%,0 100%);
+    margin-bottom: 5rem;
 }
 
 .container {
@@ -729,7 +731,7 @@ footer .copyright {
 #black {
     background: var(--dark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%,0 100%);
-    padding-bottom: 18rem;
+    padding-bottom: 0rem;
     padding-top: 2rem;
 }
 #black p {
@@ -847,6 +849,7 @@ transform:scale(1.30);
 }
 
 @media (max-width:576px) {
+    
     .hero {
         flex-direction: column;
     }
@@ -889,6 +892,10 @@ transform:scale(1.30);
     text-align: center;
    
     }
+    .retour #retour.btn.btn-primary .retour{
+    text-align: center;
+    
+    }
     .btn {
     
     margin-bottom:4rem ;
@@ -930,6 +937,7 @@ transform:scale(1.30);
     .flex-1.section-heading-1 h1{
     line-height: none;
     }
+    
     .btn.btn-primary{
     margin-top: 1rem;
     margin-bottom: 4rem;
@@ -999,7 +1007,7 @@ transform:scale(1.30);
 
     #black {
     
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 96%,0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 98%,0 100%);
     
     }
     section.work .card-wrapper .card {
@@ -1007,7 +1015,7 @@ transform:scale(1.30);
 }
     #black1 {
     color: var(--pure);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 96%,0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 98%,0 100%);
     background: var(--dark);
     padding-bottom: 6rem;
     
