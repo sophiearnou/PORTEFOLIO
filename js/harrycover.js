@@ -3,7 +3,7 @@ $(function () {
     'Intégratrice',
     'Développeuse',
     'Graphiste',
-    'photograveur'
+    'Photograveur'
   ],
     i = 0;
 
