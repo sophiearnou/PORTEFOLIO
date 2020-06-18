@@ -1001,6 +1001,21 @@ transform:scale(1.30);
     
     clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 96%,0 100%);
     
+    }
+    section.work .card-wrapper .card {
+    margin-bottom:2rem ;
+}
+    #black1 {
+    color: var(--pure);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 96%,0 100%);
+    background: var(--dark);
+    padding-bottom: 6rem;
+    
+}
+.container .pack{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin-bottom: 2rem;
 }
    
 }
