@@ -10,8 +10,9 @@
     justify-content: space-between;
 }
 
-.h3, h3 {
-  
+.h3,
+h3 {
+
     margin-top: 1.5rem;
 }
 
@@ -26,15 +27,15 @@
     cursor: pointer;
     text-transform: uppercase;
     transition: all .3s ease;
-    
-    
+
+
 }
 
 .btn-primary {
     background: var(--primary);
     color: var(--pure);
     border-color: none;
-    
+
 }
 
 .btn-primary:hover {
@@ -49,7 +50,7 @@
     border-color: none;
 }
 
-.btn-secondary:hover{
+.btn-secondary:hover {
 
     background: transparent;
     border-color: var(--primar);
@@ -64,4 +65,3 @@
 .justify-center {
     justify-content: center;
 }
-
