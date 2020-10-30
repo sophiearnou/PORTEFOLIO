@@ -367,6 +367,7 @@ section.services .card-wrapper .card:hover p {
 .fab,
 .far {
     font-weight: 400;
+    padding-top: 38px;
     /* padding-top: 38px; */
     /* color: var(--primar); */
 }
