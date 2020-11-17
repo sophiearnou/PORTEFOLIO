@@ -367,8 +367,7 @@ section.services .card-wrapper .card:hover p {
 .fab,
 .far {
     font-weight: 400;
-    padding-top: 38px;
-    /* padding-top: 38px; */
+   
     /* color: var(--primar); */
 }
 
@@ -667,7 +666,28 @@ footer {
     text-align: center;
     padding: 5rem 0;
 }
-
+.btn-top {
+    display: block;
+    background-color: var(--primar);
+    width: 52px;
+    height: 52px;
+    padding: 10px;
+    margin: 0px auto 0;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    transition: .3s;
+}
+.branding {
+    padding-top: 20px;
+}
+.btn-top:focus,
+.btn-top:hover,
+.btn-top:active {
+    color: #000;
+    background-color: #fff;
+    ;
+}
 footer .clignotte a {
     color: var(--primar);
     text-decoration: none;
